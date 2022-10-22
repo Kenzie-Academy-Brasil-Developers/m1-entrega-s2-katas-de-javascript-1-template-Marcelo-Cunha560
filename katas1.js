@@ -37,19 +37,29 @@
 // stringElement("algorítmos", 7)
 
 // Questaõ 4
-
-function stringSlicer(string, Number){
-    let novaString = " "
-    for(let i = 0; i < Number; i++){
-        novaString += string[i]
-    }
-    console.log(novaString)
+// function stringSlicer(string, Number){
+//     let novaString = " "
+//     for(let i = 0; i < Number; i++){
+//         novaString += string[i]
+//     }
+//     console.log(novaString)
    
-} 
-stringSlicer("ALGORÌTMOS", 4)
+// } 
+// stringSlicer("ALGORÌTMOS", 4)
 
+//Questão 5
+function stringRest(string, Number){
+    let stringNova = ""
+    for(let i = string.length-1; Number <= i; i--){
+        stringNova += string[i]
+        console.log(stringNova)
+        
+    }
+     console.log(stringNova)
 
+}
 
+stringRest("ALGORÌTMOS", 2)
 
 
 
