@@ -36,18 +36,16 @@
 
 // stringElement("algorítmos", 7)
 
-//Questaõ 4
+// Questaõ 4
 
 function stringSlicer(string, Number){
+    let novaString = " "
     for(let i = 0; i < Number; i++){
-        novaString = " "
         novaString += string[i]
-        console.log(novaString)
-        
     }
     console.log(novaString)
    
-}
+} 
 stringSlicer("ALGORÌTMOS", 4)
 
 
