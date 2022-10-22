@@ -51,8 +51,7 @@
 function stringRest(string, Number){
     let stringNova = ""
     for(let i = string.length-1; Number <= i; i--){
-        stringNova += string[i]
-        console.log(stringNova)
+        stringNova += string[string.length+1-i]
         
     }
      console.log(stringNova)
